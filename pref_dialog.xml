@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454444"
+    android:padding="30dp"
+    android:id="@+id/RelativeLayout">
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System Status: "
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="On "
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/pref_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/switch1"
+        android:text="Off"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Limit (%):"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:layout_below="@+id/modeGroup"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/maxCharge"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:background="#302F2F"
+        android:ems="10"
+        android:hint="100"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#939393"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textSize="27sp"
+        android:textColor="@color/white"
+        android:text="Charge Mode:"/>
+    <RadioGroup
+        android:layout_marginTop="5dp"
+        android:id="@+id/modeGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radioNorm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal (15% - 85%)"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioMaxPow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max Power (15% - 100%)"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </RadioGroup>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/switch1"
+        android:background="#000000"/>
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="500dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/modeGroup"
+        android:background="#000000"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454444"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/email_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: edkjr10@tamu.edu"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/page_title"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"/>
+
+    <Button
+        android:id="@+id/email_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_below="@id/page_title"
+        android:layout_toEndOf="@+id/email_title"
+        app:layout_constraintBottom_toBottomOf="@+id/email_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/email_title"
+        app:layout_constraintTop_toTopOf="@+id/email_title"
+        android:layout_marginStart="10dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/call_title"
+    android:text="Phone: (469)726-8610"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/email_title"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="100dp"/>
+
+    <Button
+        android:id="@+id/phone_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call"
+        app:layout_constraintBottom_toBottomOf="@+id/call_title"
+        app:layout_constraintEnd_toEndOf="@+id/email_button"
+        app:layout_constraintStart_toStartOf="@+id/email_button"
+        app:layout_constraintTop_toTopOf="@+id/call_title" />
+    <!--
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/phone_con"/>
+-->
+</androidx.constraintlayout.widget.ConstraintLayout>
