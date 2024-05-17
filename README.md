@@ -31,6 +31,8 @@ The Main Interface offers the following information about the current state of t
 - Lifetime Total Power Generated in Watts
 - Lifetime Carbon Dioxide Emmision Avoided in Tons
 - Total Power Consumed by Loads
+- Current Battery Charge
+- Current Charge Maximum
 - Indication of which Battery is being charged
 - Indication of which Battery is supply power to the loads
 - Access to further functionalities the app via a menu located at the top left of the screen
