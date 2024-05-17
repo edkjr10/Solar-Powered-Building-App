@@ -21,7 +21,9 @@ The app collects all necessary data from the database and manipulates it for the
 <h2>Main Interface:</h2>
 
 
-![main1](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/9498408a-9ac3-4ac5-b3e3-84d298f800a9)   ![main2](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/413b9cd7-19a0-4df0-ab8f-7aae407450cb)   ![main3](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/52e40ad0-d102-430a-bb47-9f4478167554)   ![menu](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/0326209a-2eb0-46d0-bd96-f15dfe7f9c67)
+![main1](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/9498408a-9ac3-4ac5-b3e3-84d298f800a9)   ![main2](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/413b9cd7-19a0-4df0-ab8f-7aae407450cb)
+
+![main3](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/52e40ad0-d102-430a-bb47-9f4478167554)   ![menu](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/0326209a-2eb0-46d0-bd96-f15dfe7f9c67)
 
 The Main Interface offers the following information about the current state of the system in a digestible format:
 
