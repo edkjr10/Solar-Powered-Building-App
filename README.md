@@ -52,3 +52,11 @@ When "Settings" is selected from the menu, the user is shown the available setti
   - Charge Mode - Determines the upper and lower charge limits that the batteries can reach during charging or supplying power
   - Custom Limit - Determines the custom upper limit that the batteries can be charged.
     - <i>Only available if the Custom Charge Mode is selected</i>
+
+
+Daily Generation:
+
+
+![graph](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/17442814-478b-4a61-aad8-f18c4aab9e50) ![graph2](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/e728d9c6-6579-4673-9816-83f4ff9125ef) ![graph3](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/a9c329a8-5248-4647-9e03-94613e01365b)
+
+
