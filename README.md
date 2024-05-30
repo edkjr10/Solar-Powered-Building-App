@@ -39,3 +39,16 @@ The Main Interface offers the following information about the current state of t
 
 <h2>Additional Features:</h2>
 
+
+System Settings:
+
+
+![pref](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/a0f3566a-c91b-4ed0-ace4-d32879745882)   ![warn](https://github.com/edkjr10/Solar-Powered-Building-App/assets/169074953/763c0ba8-829a-4069-ae4e-699ec9b34be4)
+
+When "Settings" is selected from the menu, the user is shown the available settings for customization:
+
+  - System Status - Determines if the system is to be powered On or Off
+    - A warning message is displayed if Off is selected to confirm the user's choice before saving
+  - Charge Mode - Determines the upper and lower charge limits that the batteries can reach during charging or supplying power
+  - Custom Limit - Determines the custom upper limit that the batteries can be charged.
+    - <i>Only available if the Custom Charge Mode is selected</i>
