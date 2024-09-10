@@ -1,7 +1,7 @@
 # Solar-Powered-Building-App
 
 A mobile app for a solar-powered system was my final project as a Senior at Texas A&M.
-The collection of main nessecary files can be found here with a description of available features.
+A collection of the main files can be found here with a description of available features.
 
 The graphical interface was coded using XML.
 
